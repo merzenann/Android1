@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/mainMenuId"
+            android:title="Home"
+            android:icon="@drawable/ic_home"
+            />
+
+        <item
+            android:id="@+id/locationMenuId"
+            android:title="Your Location"
+            android:icon="@drawable/ic_location"
+            />
+
+        <item
+            android:id="@+id/opMessageMenuId"
+            android:title="Optional Messsage"
+            android:icon="@drawable/ic_message"
+            />
+
+    </group>
+
+
+
+</menu>
